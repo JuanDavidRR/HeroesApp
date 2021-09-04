@@ -1,0 +1,63 @@
+body,
+html {
+	height: 100%;
+	position: relative;
+
+	/* background-image: url("./components/login/heroDarkWallpaper.jpg"); */
+}
+
+nav {
+	padding: 20px;
+}
+
+.marvel .btn {
+	background-color: red;
+}
+
+.publisher {
+	height: 30px;
+	transition: transform 0.2s;
+}
+
+.publisher:hover {
+	transform: scale(1.1);
+}
+
+.nav-link {
+	transition: transform 0.2s;
+	padding: 10px 20px !important;
+}
+
+.nav-link:hover {
+	transform: scale(1.1);
+}
+
+.card {
+	transition: transform 0.2s !important;
+	padding: 0;
+	margin: 0px;
+	/* border: 1px solid rgb(202, 202, 202); */
+}
+
+.card:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 0.5s;
+	-webkit-box-shadow: 0px 0px 10px -1px #000000;
+	box-shadow: 0px 0px 10px -1px #838383;
+}
+
+.img-thumbnail {
+	transition: transform 0.2s !important;
+	-webkit-box-shadow: 0px 0px 10px -1px #000000;
+	box-shadow: 0px 0px 10px -1px #838383;
+}
+.img-thumbnail:hover {
+	transform: scale(0.94);
+	-webkit-box-shadow: 0px 0px 10px -1px #000000;
+	box-shadow: 0px 0px 10px -1px #838383;
+}
+
+.btn:hover {
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 1s;
+}
